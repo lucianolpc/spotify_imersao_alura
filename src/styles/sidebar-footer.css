@@ -1,5 +1,6 @@
 body {
-    background-color: #000;
+    /* background-color: #000; */
+    background: var(--bg-my-gradient);
     font-family: var(--font-dm-sans);
 }
 
@@ -18,14 +19,14 @@ h1 {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: var(--bg-card-color);
     border-radius: 8px;
     padding: 4px 8px;
     /* cursor: pointer; */
 }
 
 .sidebar__navigation .logo {
-    background: #121212;
+    /* background: var(--bg-card-color); */
     display: flex;
     border-radius: 8px;
     padding: 16px 0px 0px 10px;
@@ -59,7 +60,7 @@ h1 {
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--bg-card-color);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -106,7 +107,7 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
+    background-color: var(--bg-second-card-color);
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;

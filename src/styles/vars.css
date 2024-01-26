@@ -3,6 +3,13 @@
     --font-dm-sans: "DM Sans", sans-serif;
 
     /* COLORS */
+    --bg-my-gradient: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    --bg-color: #000;
+
+    /* --bg-card-color: #121212; */
+    --bg-card-color: rgba(18, 18, 18, 0.7);
+    --bg-second-card-color: rgba(36, 36, 36, 0.5);
+    
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0, 0, 0, 0.7);
     --bg-search-color: #242424;
